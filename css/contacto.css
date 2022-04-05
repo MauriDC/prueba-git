@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-attachment: fixed;
+    /* --------------------------- position: relative; -------------------------- */
+    /* ------------------------- background-size: 500px; ------------------------ */
+}
+
+nav{
+    text-align:right;
+    padding: 50 px 100 px 50 0;
+    display:flexbox;
+}
+
+nav > a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+body {
+    /* --------------------- color: greenyellow, dodgerblue; -------------------- */
+    /* ------------------------- box-sizing: border-box; ------------------------ */
+    font-size: 18px;
+    line-height: 1.3;
+    background-image: linear-gradient(45deg, greenyellow, dodgerblue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.form-uno h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-uno{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    margin: 0 0 40px 0;
+    padding: 50px;
+}
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input [type="text"],
+.form-row input [type="email"] {
+    background-color: #fff;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row textarea {
+    font-size: 14px;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 7px;
+    min-height: 200px;
+    min-width: 100%;
+    resize: none;
+}
+
+.form-row .instructions {
+    color: #999;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.form-row .button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: greenyellow, dodgerblue;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+.form-row button:active{
+    background-color: dodgerblue;
+}
+
